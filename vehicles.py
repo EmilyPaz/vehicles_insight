@@ -8,7 +8,6 @@ print(f'Columns are: {df.columns.to_list()}')
 
 print(f'The amount of null values per column is: {df.isnull().sum()}')
 
-print(f'The minimun values in numerical columns are: {df[['Engine Displacement', 'Cylinders', 'Fuel Barrels/Year', 'City MPG', 'Combined MPG', 'CO2 Emission Grams/Mile', 'Fuel Cost/Year']].min()}')
+print("The minimun values in numerical columns are: " + str(df[['Engine Displacement', 'Cylinders', 'Fuel Barrels/Year', 'City MPG', 'Combined MPG', 'CO2 Emission Grams/Mile', 'Fuel Cost/Year']].min()))
 
-print(f'The minimun values in numerical columns are: {df[['Engine Displacement', 'Cylinders', 'Fuel Barrels/Year', 'City MPG', 'Combined MPG', 'CO2 Emission Grams/Mile', 'Fuel Cost/Year']].max()}')
-
+print("The maximun values in numerical columns are: " + str(df[['Engine Displacement', 'Cylinders', 'Fuel Barrels/Year', 'City MPG', 'Combined MPG', 'CO2 Emission Grams/Mile', 'Fuel Cost/Year']].max()))
