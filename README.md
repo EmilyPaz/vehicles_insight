@@ -5,7 +5,7 @@
 As an Ironhack's student, we are learning how to work in our repositories
 We have a function in **vehicles.py** that prints the vehicles.csv shape.
 
-###Steps:
+### Steps:
 
 - Import pandas.
 - Import vehicles.csv as a pandas DataFrame saved in a variable called df. 
