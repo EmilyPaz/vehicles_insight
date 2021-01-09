@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('/home/emily/Bootcamp/vehicles_insight/data/vehicles.csv')
+df = pd.read_csv('data/vehicles.csv')
 print(f'Data frame shape is: {df.shape}')
 
 print(f'Data frame lenght is: {len(df.index)}')
